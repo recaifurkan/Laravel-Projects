@@ -1,0 +1,87 @@
+/*  burası açılan resim göstergesi için yapılmış css dir     */
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #333;
+}
+
+.masonry {
+  width: 100%;
+  height: 100%;;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+
+ 
+}
+.masonry .brick {
+
+  overflow: hidden;
+}
+.masonry .brick img {
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  width: 100%;
+ 
+  
+}
+.masonry:hover  {
+  transform: scale(1.2);
+  -webkit-box-shadow: 2px 10px 76px 67px rgba(245,245,245,0.66);
+  -moz-box-shadow: 2px 10px 76px 67px rgba(245,245,245,0.66);
+  box-shadow: 2px 10px 76px 67px rgba(245,245,245,0.66);
+
+}
+
+
+.masonry.bordered {
+  -moz-column-rule: 1px solid #eee;
+  -webkit-column-rule: 1px solid #eee;
+  column-rule: 1px solid #eee;
+  -moz-column-gap: 50px;
+  -webkit-column-gap: 50px;
+  column-gap: 50px;
+}
+.masonry.bordered .brick {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eee;
+}
+.masonry.gutterless {
+  -moz-column-gap: 0;
+  -webkit-column-gap: 0;
+  column-gap: 0;
+}
+.masonry.gutterless .brick {
+  margin-bottom: 0;
+}
+
+.span {
+  -moz-column-span: all;
+  -webkit-column-span: all;
+  column-span: all;
+  *margin: 30px 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .desc {
+    font-size: 1.25em;
+  }
+
+  .intro {
+    letter-spacing: 1px;
+  }
+
+
+
+ 
+}
+@media only screen and (min-width: 900px)  {
+  .masonry .brick img {
+    margin-top: 5px;
+  }
+  
+
+}

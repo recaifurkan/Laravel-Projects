@@ -1,0 +1,1 @@
+[25-Sep-2018 23:32:22 Europe/Istanbul] PHP Fatal error:  Cannot redeclare App\Models\Haber::getResim() in /home/recenthu/laravel/app/Models/Haber.php on line 45

@@ -1,0 +1,20 @@
+[06-Sep-2018 23:22:45 Europe/Istanbul] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /home/klinikci/laravel/app/Exceptions/Handler.php:51
+Stack trace:
+#0 /home/klinikci/laravel/app/Exceptions/Handler.php(51): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/klinikci/...', 51, Array)
+#1 /home/klinikci/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /home/klinikci/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /home/klinikci/laravel/app/Exceptions/Handler.php on line 51
+[06-Sep-2018 23:22:52 Europe/Istanbul] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /home/klinikci/laravel/app/Exceptions/Handler.php:51
+Stack trace:
+#0 /home/klinikci/laravel/app/Exceptions/Handler.php(51): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/klinikci/...', 51, Array)
+#1 /home/klinikci/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /home/klinikci/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /home/klinikci/laravel/app/Exceptions/Handler.php on line 51
+[08-Sep-2018 11:19:12 Europe/Minsk] PHP Warning:  symlink() has been disabled for security reasons in /home/klinikci/public_html/symlink.php on line 3
+[08-Sep-2018 11:20:45 Europe/Minsk] PHP Warning:  symlink() has been disabled for security reasons in /home/klinikci/public_html/symlink.php on line 3
+[08-Sep-2018 11:22:44 Europe/Minsk] PHP Warning:  symlink() has been disabled for security reasons in /home/klinikci/public_html/symlink.php on line 3
+[08-Sep-2018 11:26:35 Europe/Minsk] PHP Warning:  symlink() has been disabled for security reasons in /home/klinikci/public_html/symlink.php on line 3

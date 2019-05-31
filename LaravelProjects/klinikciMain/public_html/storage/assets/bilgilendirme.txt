@@ -1,0 +1,9 @@
+bu klasörlerde belirtilen klasör içinde resimler bulunacak ve resim url leri buraya göre verilecek
+
+
+
+her bi tane yeni üye oluþtuðunda burada üyenin idsinde klasör açýlacak
+ve o üyenin dosyalarý orada tutulacak
+
+
+ayný þekilde haber olsun spot olsun konu olsun burda tutulacak
