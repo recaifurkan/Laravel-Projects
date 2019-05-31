@@ -1,8 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-* .php linguist-detectable=true
-* .js linguist-detectable=false
-* .html linguist-detectable=false
-* .xml linguist-detectable=false
-* .css linguist-detectable=false
+*.php linguist-detectable=true
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
+*.css linguist-detectable=false
